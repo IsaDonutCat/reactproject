@@ -11,8 +11,16 @@
         "CompanyName" : "SampleName2",
         "CompanyLogo": "/assets/image.png",
         "OppType": "shadowing",
-        "Fields": ["biology", "chemistry", "orgchem"],
+        "Fields": ["Biology", "Chemistry", "Mathematics"],
         "Deadline": "12-5-28",
+        "Slots" : 5
+    },
+    {
+        "CompanyName" : "SampleName3",
+        "CompanyLogo": "/assets/image.png",
+        "OppType": "Zoom Meeting",
+        "Fields": ["Sociology", "Political Science", "Psychology"],
+        "Deadline": "10-2-29",
         "Slots" : 5
     }
 ]

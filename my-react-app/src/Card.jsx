@@ -1,7 +1,4 @@
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
 import './Card.css'
-import {useEffect} from "react";
 
 function Card ({element})
 {
@@ -11,7 +8,9 @@ function Card ({element})
                 <div id="info">
                     <h1 id = "companyName">{element.CompanyName}</h1>
                     <h2 id="positionName">{element.OppType}</h2>
-                        <ul id = "fields">{element.Fields.map((x) => (<li>{x}</li>))}
+                    <p id="deadLine">{element.Deadline}</p>
+                    <ul id = "fields">
+                        {element.Fields.map((x) => (<li>{x}</li>))}
                     </ul>
                 </div>
                 <p>message</p>
@@ -19,4 +18,4 @@ function Card ({element})
 }
 
 export default Card;
-//<!-- <p id="deadLine">{props.Deadline}</p> -->
+//<!--  -->
