@@ -1,0 +1,18 @@
+[
+    {
+    "CompanyName" : "SampleName",
+    "CompanyLogo": "/assets/image.png",
+    "OppType": "Internship",
+    "Fields": ["anthropology", "archaeology", "history"],
+    "Deadline": "12-5-26",
+    "Slots" : 5
+    },
+    {
+        "CompanyName" : "SampleName2",
+        "CompanyLogo": "/assets/image.png",
+        "OppType": "shadowing",
+        "Fields": ["biology", "chemistry", "orgchem"],
+        "Deadline": "12-5-28",
+        "Slots" : 5
+    }
+]
